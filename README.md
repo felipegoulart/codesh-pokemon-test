@@ -9,7 +9,7 @@ Nesse teste você deverá desenvolver um projeto para listar pokémons, utilizan
 [SPOILER] As instruções de entrega e apresentação do teste estão no final deste Readme (=
 
 ### Antes de começar
- 
+
 - O projeto deve utilizar a Linguagem específica na avaliação. Por exempo: Vue.js, Nuxt.js
 - Considere como deadline da avaliação a partir do início do teste. Caso tenha sido convidado a realizar o teste e não seja possível concluir dentro deste período, avise a pessoa que o convidou para receber instruções sobre o que fazer.
 - Documentar todo o processo de investigação para o desenvolvimento da atividade (README.md no seu repositório); os resultados destas tarefas são tão importantes do que o seu processo de pensamento e decisões à medida que as completa, por isso tente documentar e apresentar os seus hipóteses e decisões na medida do possível.
@@ -20,14 +20,13 @@ Nesse teste você deverá desenvolver um projeto para listar pokémons, utilizan
 - Aplicação de Design System para estruturação de CSS.
 - Figma com os arquivos do desenho da plataforma: [https://www.figma.com/file/7s6fPACcLCmef4JZ8cM35v/Teste-FrontEnd---Pokemon?node-id=0%3A1](https://www.figma.com/file/7s6fPACcLCmef4JZ8cM35v/Teste-FrontEnd---Pokemon?node-id=0%3A1 "https://www.figma.com/file/7s6fPACcLCmef4JZ8cM35v/Teste-FrontEnd---Pokemon?node-id=0%3A1")
 
-
 ### Requisitos
 
 1 - Tela de listagem Pokémons, sendo 24 registros por página com paginação em Scroll (Infinita).
-2 - Pesquisa de um Pokémon específico por ID ou Nome. 
-3 - Exibir o detalhe de um Pokémon ao clicar em um card, mostrando os seus efeitos. Exibir o detalhe de um Pokémon ao clicar em um card, mostrando os seus efeitos. (Deve ser redirecionado para um página nova, sendo possível também pesquisar um pokémon específico via parâmetro na url) 
-4 - Responsividade para visualização em dispositivos Móveis. 
-5 - Aplicação de _**Clean Code**_ no projeto. _Não é necessário listar todos os dados, somente alguns básicos._ 
+2 - Pesquisa de um Pokémon específico por ID ou Nome.
+3 - Exibir o detalhe de um Pokémon ao clicar em um card, mostrando os seus efeitos. Exibir o detalhe de um Pokémon ao clicar em um card, mostrando os seus efeitos. (Deve ser redirecionado para um página nova, sendo possível também pesquisar um pokémon específico via parâmetro na url)
+4 - Responsividade para visualização em dispositivos Móveis.
+5 - Aplicação de _**Clean Code**_ no projeto. _Não é necessário listar todos os dados, somente alguns básicos._
 
 ### Diferencial
 
@@ -39,7 +38,6 @@ Você irá se destacar mais ainda!
 5- Utilização do **Pinia** para gerenciamento de estado.
 6- Utilização do **Tanstack Query**.
 
-
 ## Readme do Repositório
 
 - Deve conter o título do projeto
@@ -49,7 +47,7 @@ Você irá se destacar mais ainda!
 - Não esqueça o [.gitignore](https://www.toptal.com/developers/gitignore)
 - Se está usando github pessoal, referencie que é um challenge by coodesh:  
 
->  This is a challenge by [Coodesh](https://coodesh.com/)
+> This is a challenge by [Coodesh](https://coodesh.com/)
 
 ## Finalização e Instruções para a Apresentação
 
@@ -60,4 +58,80 @@ Você irá se destacar mais ainda!
 
 ## Suporte
 
-Use a [nossa comunidade](https://discord.gg/rdXbEvjsWu) para tirar dúvidas sobre o processo ou envie uma mensagem diretamente a um especialista no chat da plataforma. 
+Use a [nossa comunidade](https://discord.gg/rdXbEvjsWu) para tirar dúvidas sobre o processo ou envie uma mensagem diretamente a um especialista no chat da plataforma.
+
+# Nuxt 3 Minimal Starter
+
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+## Setup
+
+Make sure to install the dependencies:
+
+```bash
+# npm
+npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm run dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm run build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm run preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
